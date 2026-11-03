@@ -25,7 +25,7 @@ continueBtn.addEventListener("click",()=>goToStage(2));
 const fireCanvas=$("fireworksCanvas"),fctx=fireCanvas.getContext("2d");
 let fw=0,fh=0,fhw=0,fhh=0,letters=[];
 const fopts={
-strings:["HAPPY","BIRTHDAY!","ABIDA"],charSize:30,charSpacing:35,lineHeight:40,
+strings:["HAPPY","BIRTHDAY!","SIAM"],charSize:30,charSpacing:35,lineHeight:40,
 fireworkPrevPoints:10,fireworkBaseLineWidth:5,fireworkAddedLineWidth:8,
 fireworkSpawnTime:200,fireworkBaseReachTime:30,fireworkAddedReachTime:30,
 fireworkCircleBaseSize:20,fireworkCircleAddedSize:10,fireworkCircleBaseTime:30,
